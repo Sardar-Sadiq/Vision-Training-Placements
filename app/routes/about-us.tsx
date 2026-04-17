@@ -98,7 +98,7 @@ export default function AboutUs() {
                   {/* Profile 1 */}
                   <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
                      <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
-                        <img src="../../public/konda sir.png" alt="Julian Voss" className="absolute inset-0 w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
+                        <img src="/konda sir.png" alt="Julian Voss" className="absolute inset-0 w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
                      <div className="p-6 flex-1 flex flex-col">
                         <Badge variant="legacy">LEAD ARCHITECT</Badge>
