@@ -86,7 +86,7 @@ export default function AboutUs() {
 
          {/* The Mentors */}
          <section className="bg-surface-container-low py-24">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-6 lg:max-w-8xl">
                <div className="mb-16 max-w-xl">
                   <h2 className="text-4xl font-display font-bold text-primary mb-4">The Mentors</h2>
                   <p className="text-on-surface/70 font-sans text-sm leading-relaxed">
@@ -98,9 +98,9 @@ export default function AboutUs() {
                   {/* Profile 1 */}
                   <div className="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm border border-outline-variant/10 group flex flex-col h-full">
                      <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Julian Voss" className="absolute inset-0 w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
+                        <img src="../../public/konda sir.png" alt="Julian Voss" className="absolute inset-0 w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
-                     <div className="p-8 flex-1 flex flex-col">
+                     <div className="p-6 flex-1 flex flex-col">
                         <Badge variant="legacy">LEAD ARCHITECT</Badge>
                         <h3 className="text-xl font-display font-bold text-primary mt-4 mb-2">Julian Voss</h3>
                         <p className="text-sm font-sans text-on-surface/70 leading-relaxed mb-6">
@@ -118,7 +118,7 @@ export default function AboutUs() {
                      <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
                         <img src="/mam.png" alt="Elena Rossi" className="absolute inset-0 w-full h-full object-cover object-[center_top] filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
-                     <div className="p-8 flex-1 flex flex-col">
+                     <div className="p-6 flex-1 flex flex-col">
                         <Badge variant="guide">SYSTEMS DESIGN</Badge>
                         <h3 className="text-xl font-display font-bold text-primary mt-4 mb-2">Elena Rossi</h3>
                         <p className="text-sm font-sans text-on-surface/70 leading-relaxed mb-6">
@@ -136,7 +136,7 @@ export default function AboutUs() {
                      <div className="aspect-[4/5] w-full overflow-hidden bg-surface-container-lowest relative shrink-0">
                         <img src="/Vamsi sir.png" alt="Marcus Chen" className="absolute inset-0 w-full h-full object-cover object-center filter grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105" />
                      </div>
-                     <div className="p-8 flex-1 flex flex-col">
+                     <div className="p-6 flex-1 flex flex-col">
                         <Badge variant="guide">FRONTEND LEAD</Badge>
                         <h3 className="text-xl font-display font-bold text-primary mt-4 mb-2">Marcus Chen</h3>
                         <p className="text-sm font-sans text-on-surface/70 leading-relaxed mb-6">
