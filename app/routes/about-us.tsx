@@ -22,7 +22,7 @@ export default function AboutUs() {
                      Engineering the<br />Future of<br />Learning.
                   </h1>
                   <p className="mt-8 text-lg font-sans text-on-surface/80 max-w-md leading-relaxed">
-                     EthoStack was born from a singular vision: to bridge the gap between academic theory and the high-velocity demands of modern engineering studios.
+                     <span className="font-bold">Vision</span>  was born from a singular vision: to bridge the gap between academic theory and the high-velocity demands of modern engineering studios.
                   </p>
                </motion.div>
 
@@ -154,7 +154,7 @@ export default function AboutUs() {
 
          {/* Blue CTA overlaying */}
          <section className="bg-surface-container-low pb-24">
-            <div className="bg-primary text-white w-full rounded-tr-[100px] rounded-tl-[100px] overflow-hidden">
+            <div className="bg-primary/95 text-white w-full rounded-tr-[50px] rounded-tl-[50px] overflow-hidden">
                <div className="container mx-auto px-6 py-24 flex flex-col md:flex-row items-center justify-between gap-12 relative">
 
                   {/* Pattern overlay */}

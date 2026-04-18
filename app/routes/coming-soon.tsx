@@ -13,7 +13,7 @@ export default function ComingSoon() {
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
     setCopied(true);
-    
+
     // Trigger confetti
     confetti({
       particleCount: 150,
@@ -54,7 +54,7 @@ export default function ComingSoon() {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px] animate-pulse delay-1000" />
       </div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="text-center max-w-3xl mx-auto"
@@ -65,7 +65,7 @@ export default function ComingSoon() {
           Take <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-blue-600">Time.</span>
         </h1>
         <p className="mt-8 text-lg font-sans text-on-surface/70 leading-relaxed">
-          We're currently architecting the next phase of the EthoStack ecosystem. 
+          We're currently architecting the next phase of the Vision  ecosystem.
           Our new portals and resources are being built with the same precision we teach in our cohorts.
         </p>
 
@@ -103,8 +103,8 @@ export default function ComingSoon() {
                 Leave your email and we'll signal you the moment we launch these premium resources.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   placeholder="Enter your email"
                   className="flex-1 bg-surface-container-lowest border border-outline-variant px-6 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all font-sans text-sm"
                 />
@@ -142,7 +142,7 @@ export default function ComingSoon() {
               <div className="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                 {copied ? <Check className="w-5 h-5" /> : <Mail className="w-5 h-5" />}
               </div>
-              
+
               <div className="flex flex-col items-start">
                 <span className="text-[10px] font-label uppercase tracking-widest text-on-surface/40 group-hover:text-primary transition-colors">Reach Out To Us</span>
                 <span className="text-sm font-sans font-medium text-primary">{email}</span>
@@ -152,9 +152,9 @@ export default function ComingSoon() {
                 <Copy className="w-4 h-4" />
               </div>
             </motion.button>
-            
+
             {copied && (
-              <motion.span 
+              <motion.span
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 className="text-[10px] font-label uppercase tracking-widest text-green-500 font-semibold mt-2"
@@ -166,19 +166,19 @@ export default function ComingSoon() {
         </div>
 
         <div className="mt-16 flex items-center justify-center gap-8">
-           <Link to="/" className="text-sm font-sans font-medium text-on-surface/60 hover:text-primary flex items-center gap-2 transition-colors">
-             <ArrowLeft className="w-4 h-4" /> Back to Home
-           </Link>
-           <span className="w-1 h-1 bg-outline-variant/50 rounded-full" />
-           <Link to="/courses" className="text-sm font-sans font-medium text-on-surface/60 hover:text-primary transition-colors">
-             Explore Courses
-           </Link>
+          <Link to="/" className="text-sm font-sans font-medium text-on-surface/60 hover:text-primary flex items-center gap-2 transition-colors">
+            <ArrowLeft className="w-4 h-4" /> Back to Home
+          </Link>
+          <span className="w-1 h-1 bg-outline-variant/50 rounded-full" />
+          <Link to="/courses" className="text-sm font-sans font-medium text-on-surface/60 hover:text-primary transition-colors">
+            Explore Courses
+          </Link>
         </div>
       </motion.div>
 
       {/* Floating Sparkles */}
       <motion.div
-        animate={{ 
+        animate={{
           y: [0, -20, 0],
           opacity: [0.5, 1, 0.5]
         }}

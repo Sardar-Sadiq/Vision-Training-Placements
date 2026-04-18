@@ -139,7 +139,7 @@ export default function Home() {
                 </p>
                 <div className="flex items-center justify-between border-t border-surface-container-low pt-6 mt-auto">
                   <div className="flex items-center gap-2 text-sm text-on-surface/60 font-label">
-                    <Users2 className="w-4 h-4" /> 24 Weeks
+                    <Users2 className="w-4 h-4" /> 12 Weeks
                   </div>
                   <div className="text-xs font-label uppercase tracking-widest font-semibold flex items-center gap-2 text-on-surface hover:text-on-primary-container transition-colors">
                     Curriculum <MoveRight className="w-4 h-4" />
@@ -163,7 +163,7 @@ export default function Home() {
                 </p>
                 <div className="flex items-center justify-between border-t border-surface-container-low pt-6 mt-auto">
                   <div className="flex items-center gap-2 text-sm text-on-surface/60 font-label">
-                    <Users2 className="w-4 h-4" /> 28 Weeks
+                    <Users2 className="w-4 h-4" /> 12 Weeks
                   </div>
                   <div className="text-xs font-label uppercase tracking-widest font-semibold flex items-center gap-2 text-on-surface hover:text-on-primary-container transition-colors">
                     Curriculum <MoveRight className="w-4 h-4" />

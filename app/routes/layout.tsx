@@ -131,9 +131,9 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto px-6 mt-16 pt-8 border-t border-surface-container-low text-center">
+      <div className="container mx-auto px-6 mt-16 pt-8 border-t  border-surface-container-low text-center">
         <p className="text-xs font-sans text-on-surface/50">
-          © {new Date().getFullYear()} EthoStack Engineering Studio. All rights reserved.
+          © {new Date().getFullYear()} Vision Training & Internship. All rights reserved.
         </p>
       </div>
     </footer>
