@@ -23,8 +23,8 @@ function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-[20px] border-b border-outline-variant/10">
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-        <Link to="/" className="font-display font-bold text-2xl tracking-tight text-primary">
-          <span className="text-5xl text-blue-700 italianno">V</span> ision
+        <Link to="/" className="flex items-center">
+          <img src="/favicon.png" alt="Vision IT Training Institute" className="h-12 w-auto object-contain" />
         </Link>
 
         {/* Desktop Nav */}
@@ -92,8 +92,8 @@ function Footer() {
     <footer className="footer bg-surface py-16 border-t border-surface-container-low mt-20">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
-          <Link to="/" className="font-display font-semibold text-xl tracking-tight text-primary mb-4 block">
-            <span className="text-5xl text-blue-700 italianno">V</span> ision Training & Internship
+          <Link to="/" className="mb-6 block">
+            <img src="/main-logo.png" alt="Vision IT Training Institute" className="h-50 w-auto object-contain" />
           </Link>
           <p className="text-sm font-sans text-on-surface/70 leading-relaxed max-w-xs">
             A premium engineering studio dedicated to crafting world-class full-stack developers.
@@ -133,7 +133,7 @@ function Footer() {
       </div>
       <div className="container mx-auto px-6 mt-16 pt-8 border-t  border-surface-container-low text-center">
         <p className="text-xs font-sans text-on-surface/50">
-          © {new Date().getFullYear()} Vision Training & Internship. All rights reserved.
+          © {new Date().getFullYear()} Vision IT Training Institute. All rights reserved.
         </p>
       </div>
     </footer>

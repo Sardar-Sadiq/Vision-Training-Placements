@@ -2,21 +2,21 @@ import { motion } from "framer-motion";
 import type { Route } from "./+types/terms";
 
 export const meta: Route.MetaFunction = () => [
-  { title: "Terms & Conditions | Vision Training & Internship" },
-  { name: "description", content: "Rules and regulations for using Vision Training & Internship services, including courses, training, and internship programs." },
+  { title: "Terms & Conditions | Vision IT Training Institute" },
+  { name: "description", content: "Rules and regulations for using Vision IT Training Institute services, including courses, training, and internship programs." },
 ];
 
 export default function Terms() {
   const sections = [
     {
       id: "welcome",
-      title: "1. Welcome to Vision Training & Internship",
-      content: "These Terms and Conditions outline the rules and regulations for the use of the Vision Training & Internship website and its services, including language courses, technical training, professional education, and internship programs. By accessing our platform or enrolling in our programs, you agree to comply with these terms.",
+      title: "1. Welcome to Vision IT Training Institute",
+      content: "These Terms and Conditions outline the rules and regulations for the use of the Vision IT Training Institute website and its services, including language courses, technical training, professional education, and internship programs. By accessing our platform or enrolling in our programs, you agree to comply with these terms.",
     },
     {
       id: "about",
       title: "2. About Us",
-      content: "Vision Training & Internship provides online and offline professional courses, language programs, and IT training to individuals, students, and corporates. Our goal is to deliver practical and industry-relevant education to learners across India and abroad.",
+      content: "Vision IT Training Institute provides online and offline professional courses, language programs, and IT training to individuals, students, and corporates. Our goal is to deliver practical and industry-relevant education to learners across India and abroad.",
     },
     {
       id: "registration",
@@ -51,7 +51,7 @@ export default function Terms() {
       title: "6. Course Delivery",
       list: [
         "Courses may be delivered in-person (offline), live online, or through pre-recorded sessions.",
-        "Vision Training & Internship reserves the right to change instructors, schedules, or batch timings to meet industry standards.",
+        "Vision IT Training Institute reserves the right to change instructors, schedules, or batch timings to meet industry standards.",
       ],
     },
     {

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import type { Route } from "./+types/privacy";
 
 export const meta: Route.MetaFunction = () => [
-  { title: "Privacy Policy | Vision Training & Internship" },
-  { name: "description", content: "How Vision Training & Internship collects, uses, and protects your personal data and intellectual property." },
+  { title: "Privacy Policy | Vision IT Training Institute" },
+  { name: "description", content: "How Vision IT Training Institute collects, uses, and protects your personal data and intellectual property." },
 ];
 
 export default function Privacy() {
@@ -11,7 +11,7 @@ export default function Privacy() {
     {
       id: "collection",
       title: "1. Information Collection",
-      content: "Vision Training & Internship collects personal information such as name, email address, phone number, and educational background during the registration process to provide a personalized learning experience.",
+      content: "Vision IT Training Institute collects personal information such as name, email address, phone number, and educational background during the registration process to provide a personalized learning experience.",
     },
     {
       id: "use-of-data",
@@ -27,7 +27,7 @@ export default function Privacy() {
     {
       id: "intellectual-property",
       title: "3. Intellectual Property Protection",
-      content: "All course materials, content, designs, logos, and branding are the intellectual property of Vision Training & Internship. Reproduction, distribution, or resale of any content without written permission is strictly prohibited.",
+      content: "All course materials, content, designs, logos, and branding are the intellectual property of Vision IT Training Institute. Reproduction, distribution, or resale of any content without written permission is strictly prohibited.",
     },
     {
       id: "third-party",
@@ -42,14 +42,14 @@ export default function Privacy() {
     {
       id: "modifications",
       title: "6. Modifications",
-      content: "Vision Training & Internship reserves the right to update this Privacy Policy at any time. Changes will be effective immediately upon posting to our website.",
+      content: "Vision IT Training Institute reserves the right to update this Privacy Policy at any time. Changes will be effective immediately upon posting to our website.",
     },
     {
       id: "contact",
       title: "Contact Information",
       description: "If you have any questions regarding these documents, please reach out to us:",
       contactInfo: {
-        company: "Vision Training & Internship",
+        company: "Vision IT Training Institute",
         address: "2nd floor, BFC Plaza Mano Mini AC function hall, Srinagar Colony, Anantapur, Andhra Pradesh, India",
         phone: "+91-9390441858",
         email: "sakevamsik@gmail.com",
@@ -73,7 +73,7 @@ export default function Privacy() {
             <span className="text-on-primary-container">Policy</span>
           </h1>
           <p className="mt-8 text-lg font-sans text-on-surface/70 leading-relaxed max-w-2xl">
-            At Vision Training & Internship, we are committed to protecting your personal data and ensuring your privacy is respected throughout your learning journey.
+            At Vision IT Training Institute, we are committed to protecting your personal data and ensuring your privacy is respected throughout your learning journey.
           </p>
         </motion.div>
       </section>

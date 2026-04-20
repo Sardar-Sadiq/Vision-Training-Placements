@@ -11,12 +11,12 @@ import type { Route } from "./+types/root";
 import "./app.css";
 
 export const meta: Route.MetaFunction = () => [
-  { title: "Vision Training & Placements" },
-  { name: "description", content: "Vision Training & Internship - Engineering the Future of Learning." },
+  { title: "Vision IT Training Institute" },
+  { name: "description", content: "Vision IT Training Institute - Engineering the Future of Learning." },
 ];
 
 export const links: Route.LinksFunction = () => [
-  { rel: "icon", href: "/V.png", type: "image/png" },
+  { rel: "icon", href: "/favicon.png", type: "image/png" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",

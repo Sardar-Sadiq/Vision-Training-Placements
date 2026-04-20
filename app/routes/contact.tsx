@@ -1,6 +1,14 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MessageSquare } from "lucide-react";
+import { useLoaderData } from "react-router";
+import type { Route } from "./+types/contact";
+
+export async function loader() {
+   return {
+      accessKey: process.env.FORM_ACCESS_KEY
+   };
+}
 
 // --- Custom Icons ---
 const LinkedInIcon = ({ className }: { className?: string }) => (
@@ -17,6 +25,7 @@ const GithubIcon = ({ className }: { className?: string }) => (
 
 // --- Component ---
 export default function Contact() {
+   const { accessKey } = useLoaderData<typeof loader>();
    const [result, setResult] = useState<string>("");
    const [isSubmitting, setIsSubmitting] = useState(false);
    const [isSuccess, setIsSuccess] = useState(false);
@@ -27,7 +36,7 @@ export default function Contact() {
       setResult("Sending....");
 
       const formData = new FormData(event.target);
-      formData.append("access_key", "7f1e58c1-af09-40da-87ad-13a42e816ac4"); // Updated access key
+      formData.append("access_key", accessKey || "");
 
       try {
          const response = await fetch("https://api.web3forms.com/submit", {
